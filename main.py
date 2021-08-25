@@ -310,12 +310,19 @@ def main():
     path_output = Path(args.output.strip()).absolute()
 
     list_videos = get_media_file_paths(path_videos)
+    if len(list_videos) < 1:
+        raise RuntimeError("Video list must contain at least 1 video")
+
     list_audio = get_media_file_paths(path_audio)
+    if len(list_audio) < 1:
+        raise RuntimeError("Audio list must contain at least 1 audio clip")
+
     list_images = get_media_file_paths(path_images)
+    if len(list_images) < 1:
+        raise RuntimeError("Image list must contain at least 1 image")
 
     list_gifs = [path_image for path_image in list_images
                  if path_image.lower().endswith(".gif")]
-
     list_videos.extend(list_gifs)
     list_images = [i for i in list_images if i not in list_gifs]
 
@@ -335,18 +342,15 @@ def main():
 
     overlay_videos = args.overlay_videos \
         if args.overlay_videos > 0 \
-        else randint(floor(len(list_videos) / 4),
-                     floor(len(list_videos) - (len(list_videos) / 4)))
+        else randint(1, len(list_videos))
 
     overlay_audio = args.overlay_audio \
         if args.overlay_audio > 0 \
-        else randint(floor(len(list_audio) / 4),
-                     floor(len(list_audio) - (len(list_audio) / 4)))
+        else randint(1, len(list_audio))
 
     overlay_images = args.overlay_images \
         if args.overlay_images > 0 \
-        else randint(floor(len(list_images) / 4),
-                     floor(len(list_images) - (len(list_images) / 4)))
+        else randint(1, len(list_images))
 
     print("Generating video")
     print("Max duration: {:.1f}s".format(video_max_duration))
