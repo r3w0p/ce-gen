@@ -3,7 +3,6 @@
 [![License](https://img.shields.io/github/license/r3w0p/ce-gen.svg)](https://github.com/r3w0p/ce-gen/blob/master/LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/r3w0p/ce-gen.svg)](https://github.com/r3w0p/ce-gen/graphs/commit-activity)
 [![Open Issues](https://img.shields.io/github/issues-raw/r3w0p/ce-gen)](https://github.com/r3w0p/ce-gen/issues)
-[![Merch](https://img.shields.io/badge/merch-redbubble-red.svg)](https://www.redbubble.com/people/r3w0p)
 
 [![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P044N2B)
 
