@@ -1,14 +1,12 @@
-[![ce-gen](https://raw.githubusercontent.com/r3w0p/ce-gen/master/config/images/logo/400.png)](https://github.com/r3w0p/ce-gen)
+[![CE-GEN](https://raw.githubusercontent.com/r3w0p/ce-gen/master/config/images/logo/400.png)](https://github.com/r3w0p/ce-gen)
 
 [![License](https://img.shields.io/github/license/r3w0p/ce-gen.svg)](https://github.com/r3w0p/ce-gen/blob/master/LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/r3w0p/ce-gen.svg)](https://github.com/r3w0p/ce-gen/graphs/commit-activity)
 [![Open Issues](https://img.shields.io/github/issues-raw/r3w0p/ce-gen)](https://github.com/r3w0p/ce-gen/issues)
 
-# Comedy Epilepsy Generator
-
 ## How to Use
 
-Download the code locally and install the required dependencies using
+Download the code locally and install the required dependencies using:
 
 `pip install -r requirements.txt`
 
@@ -27,6 +25,6 @@ In this software, `.gif` files are treated as videos and can be stored in the
 
 ### Arguments
 
-All arguments have default values and can be accessed using
+All arguments have default values and can be accessed using:
 
 `python3 main.py --help`
