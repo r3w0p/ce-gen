@@ -4,7 +4,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/r3w0p/ce-gen.svg)](https://github.com/r3w0p/ce-gen/graphs/commit-activity)
 [![Open Issues](https://img.shields.io/github/issues-raw/r3w0p/ce-gen)](https://github.com/r3w0p/ce-gen/issues)
 
-[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P044N2B)
+[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/r3w0p)
 
 # Comedy Epilepsy Generator
 
